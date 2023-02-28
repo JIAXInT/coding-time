@@ -44,3 +44,5 @@ function debounce(fn, delay, immediate = false, resultCallback) {
     //返回一个新的函数 
     return _debounce
 }
+
+export default debounce
